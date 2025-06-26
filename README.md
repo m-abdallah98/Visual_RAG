@@ -1,1 +1,1 @@
-# Visual-RAG
+# Visual_RAG
