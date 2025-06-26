@@ -6,7 +6,7 @@ This repository hosts a Jupyter notebook demonstrating how to load, preprocess, 
 
 ## 📂 Project Structure
 
-Multimodality_Experiments/
-├── Multimodality_Experiments.ipynb
-├── README.md
-└── requirements.txt
+###Multimodality_Experiments
+- ├── Multimodality_Experiments.ipynb
+- ├── README.md
+- └── requirements.txt
