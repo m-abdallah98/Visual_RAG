@@ -1,4 +1,4 @@
-#Visual_RAG
+# Visual_RAG
 ## Multimodality Experiments
 
 A collection of experiments for exploring multimodal retrieval and similarity methods.  
