@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/04fe2772-36c8-429b-8245-1be282daae60)![image](https://github.com/user-attachments/assets/04fe2772-36c8-429b-8245-1be282daae60)# Visual_RAG
+#Visual_RAG
 ## Multimodality Experiments
 
 A collection of experiments for exploring multimodal retrieval and similarity methods.  
