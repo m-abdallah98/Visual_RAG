@@ -22,3 +22,4 @@ We will use `byaldi`, a library from [AnswerAI](https://www.answer.ai/), that ma
 
 Retrieved pages will then be passed into the Llama-3.2 90B Vision model served via a [Together AI](https://www.together.ai/) inference endpoint for it to answer questions.
 
+![ColPali vs Standard Retrieval Pipeline](images/Colpali_vs_Standard.png)
