@@ -25,11 +25,11 @@ Retrieved pages will then be passed into the Llama-3.2 90B Vision model served v
 ![ColPali vs Standard Retrieval Pipeline](images/Colpali_vs_Standard.png)
 
 ### **Pipeline Workflow:**
-- Data Ingestion & Patch Encoding\
+- #### Data Ingestion & Patch Encoding\
 Each PDF page is sliced into visual patches that are fed directly into the ColQwen2 vision-LLM encoder, bypassing OCR and captioning. The encoder projects every patch into a dense embedding space in ≈ 0.4 s / page, forming a multi-vector index that preserves layout and visual cues.
-- Multi-Vector Retrieval with byaldi\
+- #### Multi-Vector Retrieval with byaldi\
 A ColBERT-style MaxSim search over the patch index pulls the top-k relevant pages for any user query. Because queries can be text or image, byaldi embeds them in the same space.
-- Reasoning via Llama-3.2 90B Vision\
+- #### Reasoning via Llama-3.2 90B Vision\
 Retrieved pages (images) and the original query are packed into a prompt and sent to Together AI’s hosted Llama-3.2 90B-Vision model. The model performs cross-page reasoning—summaries, Q&A, or citation grounding—while leveraging the visual context maintained in the patches.
 
 
