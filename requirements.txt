@@ -1,0 +1,11 @@
+byaldi
+together
+pdf2image
+poppler-utils
+transformers
+bitsandbytes
+flash-attn
+llama-index-embeddings-gemini
+pyarabic
+llama-index-embeddings-huggingface
+llama-index-embeddings-instructor
